@@ -1,6 +1,7 @@
 {
   "name": "rubrica_react",
   "version": "0.1.0",
+  "author": "reborto",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
@@ -34,11 +35,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "author": "reborto",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/reborto/rubrica.react/issues"
-  },
-  "homepage": "https://github.com/reborto/rubrica.react#readme"
+  }
 }
