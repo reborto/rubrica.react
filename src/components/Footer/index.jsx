@@ -1,5 +1,9 @@
 import style from "./Footer.module.scss";
 
-const Footer = () => {};
+const Footer = () => {
+    return (
+        <div></div>
+    )
+};
 
 export default Footer

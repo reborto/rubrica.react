@@ -1,5 +1,9 @@
 import style from "./Card.module.scss";
 
-const Card = () => {};
+const Card = () => {
+    return (
+        <div></div>
+    )
+};
 
 export default Card

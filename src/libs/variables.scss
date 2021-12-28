@@ -1,0 +1,35 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+/*font-family: 'Lato', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+/*font-family: 'Fredoka One', cursive;*/
+
+//Fonts
+$font1: 'Lato', sans-serif;
+$fontTitle:'Fredoka One', cursive;
+
+//colors
+
+$col1:#d1b58b;
+$col2:#b19b7b;
+$colFooter:#992632;
+
+$colHover:#726045;
+$colBtnCard:#8a785e;
+
+$grad1: linear-gradient(145deg, #e6d7c0, #ffffe4);
+$gradHeader:linear-gradient(145deg, #ffffe4, #e6d7c0);
+$gradCard:radial-gradient(90deg, #f6e6cd, #e6d7c0);
+$gradBtn:linear-gradient(145deg, #f6e6cd, #cfc2ad);
+
+$shadH1:2px 2px 3px rgba(255,255,255,0.5);
+$shadCard:13px 13px 32px #bdb09d, -13px -13px 32px #fffee3;
+
+$shadBtn:6px 6px 11px #bdb09d, -6px -6px 11px #fffee3;
+$shadBtnHover:20px 20px 30px #bdb09d,-20px -20px 30px #fffff5;
+
+@mixin neomorph {
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+         background-clip: text;
+}
