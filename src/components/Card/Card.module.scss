@@ -1,0 +1,50 @@
+@import "../../libs/variables.scss";
+
+.card{
+    padding: 5px 25px;
+    margin: 25px 0;
+    border-radius: 25px;
+    
+   
+  
+    background: $gradCard;
+    box-shadow:  13px 13px 32px #bdb09d,
+                          -13px -13px 32px #fffee3;
+}
+
+h2{
+    font-family: 'Fredoka One', cursive;
+    
+    margin: 1rem 0 0 0;
+
+    background-color: #d1b58b;
+    
+    color: transparent;
+    text-shadow: 2px 2px 3px rgba(255,255,255,0.5);
+    -webkit-background-clip: text;
+       -moz-background-clip: text;
+            background-clip: text;
+}
+h4{
+    font-family: 'Fredoka One', cursive;
+    margin: 0 0 1rem 0;
+}
+a{
+    background-color: #d1b58b;
+    color: transparent;
+    text-shadow: 2px 2px 3px rgba(255,255,255,0.5);
+    -webkit-background-clip: text;
+       -moz-background-clip: text;
+            background-clip: text;
+}
+//btn card
+.company, .address{
+    padding: 0.25rem 1rem;
+    border: none;
+    color: #8a785e;
+    border-radius: 25px;
+    background: linear-gradient(145deg, #f6e6cd, #cfc2ad);
+    box-shadow:  6px 6px 11px #bdb09d,
+                 -6px -6px 11px #fffee3;}
+//fai Hover, active e bottone dentro il bottone; scss è gerarchizzabile
+.company{margin: 0 0 1rem 0;}
