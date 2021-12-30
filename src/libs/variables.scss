@@ -9,7 +9,6 @@ $font1: 'Lato', sans-serif;
 $fontTitle:'Fredoka One', cursive;
 
 //colors
-
 $col1:#d1b58b;
 $col2:#b19b7b;
 $colFooter:#992632;
@@ -28,8 +27,16 @@ $shadCard:13px 13px 32px #bdb09d, -13px -13px 32px #fffee3;
 $shadBtn:6px 6px 11px #bdb09d, -6px -6px 11px #fffee3;
 $shadBtnHover:20px 20px 30px #bdb09d,-20px -20px 30px #fffff5;
 
+//funzione mixin
 @mixin neomorph {
     -webkit-background-clip: text;
-    -moz-background-clip: text;
-         background-clip: text;
+       -moz-background-clip: text;
+            background-clip: text;
+
+}
+//funzione mixin con variabile in input
+@mixin neoBG ($color) {
+   background: $color;
+    -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
 }

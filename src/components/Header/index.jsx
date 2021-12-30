@@ -1,10 +1,14 @@
 import style from "./Header.module.scss";
+import Nav from '../Nav';
 
 const Header = () => {
     return(
-        <h1 className={style.title}>
+        <div>
+        <h1 key="title" className={style.title}>
         Rubrica
         </h1>
+        <Nav/>
+        </div>
     )
 };
 

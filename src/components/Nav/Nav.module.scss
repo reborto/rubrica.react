@@ -1,0 +1,76 @@
+@import "../../libs/variables.scss";
+
+.nav{
+    border-radius: 25px;   
+    margin: 2rem 0 5rem 0;
+
+    display: grid;
+    width: 100%;
+    height: 3.2rem;
+    grid-template-rows: 1fr 1fr;
+
+    background: $gradHeader;
+    box-shadow: $shadCard;
+
+    @include neoBG($col2);
+}
+
+.btn{
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+}
+
+.btn button{
+
+    width: 100%;
+    border:none;
+    background: none;
+    font-family:'Fredoka One', cursive;
+    font-size:1.2rem ;
+}
+
+//btn singoli
+.AE{
+    border-radius: 15px 5px 5px 0;  
+}
+.FL{
+    border-radius: 5px 5px 5px 5px;  
+}
+.MZ{
+    border-radius: 5px 15px 0px 5px;  
+}
+.tutti{
+    border-radius: 0 0 15px 15px;
+    width: 100%;
+    
+    border:0;
+    font-family:$fontTitle;
+    font-size:1.2rem ;
+
+    background: none;  
+}
+
+.AE:hover,.FL:hover, .MZ:hover{
+    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: $colHover; 
+
+    background: $gradHeader;
+
+    box-shadow:  $shadBtnHover;
+}
+.tutti:hover{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: $colHover; 
+
+    background: $gradHeader;
+
+    box-shadow:  20px 20px 30px #bdb09d,
+    20px 20px 30px #fffff5;  
+}
+
+.AE:active,.FL:active,.MZ:active,.tutti:active{
+    background: $grad1;
+    box-shadow: $shadBtnHover;
+}
